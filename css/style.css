@@ -1,5 +1,5 @@
 :root{
-    --pink:#e84393;
+    --pink:#683600;
 }
 
 *{
@@ -30,7 +30,7 @@ section{
     padding:1rem;
     margin:2rem 0;
     position: relative;
-    background:rgba(255, 51, 153,.05);
+    background:rgba(129, 84, 68, 0.201);
 }
 
 .heading span{
@@ -56,6 +56,7 @@ header{
     position: fixed;
     top:0; left:0; right:0;
     background:#fff;
+    margin-bottom: 10px;
     padding:2rem 9%;
     display: flex;
     align-items: center;
@@ -112,12 +113,13 @@ header .fa-bars{
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background:url(../images/home-bg.jpg) no-repeat;
+    background:url(../images/home-bg.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .home .content{
+    margin-top: 20px;
     max-width: 50rem;
 }
 
@@ -135,7 +137,7 @@ header .fa-bars{
 
 .home .content p{
     font-size: 1.5rem;
-    color:#999;
+    color:#dfdfdf;
     padding:1rem 0;
     line-height: 1.5;
 }
@@ -245,7 +247,7 @@ header .fa-bars{
     padding:.7rem 1rem;
     font-size: 2rem;
     color:var(--pink);
-    background:rgba(255, 51, 153,.05);
+    background:rgba(110, 39, 0, 0.05);
     z-index: 1;
     border-radius: .5rem;
 }
@@ -259,6 +261,10 @@ header .fa-bars{
 
 .products .box-container .box .image img{
     height:25rem;
+}
+
+.products .box-container .box .image #coffee9{
+    scale: 0.7;
 }
 
 .products .box-container .box:hover .image img{
